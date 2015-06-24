@@ -1,0 +1,188 @@
+body {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+    background-color: #fff;
+    margin: 20px;
+    padding: 0;
+    
+}
+
+#logo {
+
+	background: url("https://www.google.co.uk/images/srpr/logo11w.png") no-repeat;
+	background-size: 322.8px 113.983px;
+  height: 113.983px;
+  width: 322.8px;
+display: block;
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+
+
+.content{
+
+
+	padding-top: 16%;
+	/*background-color: black;*/
+}
+
+/* This is a comment, by the way */
+
+p {
+    line-height: 21px;
+}
+
+h1 {
+    color: #ffc;
+    background-color: #900;
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 7px;
+    padding: 4px;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 0.5em;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5em;
+    border-bottom-color: #c00;
+}
+
+h2 {
+    color: white;
+    background-color: #090;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 2px;
+    padding-left: 14px;
+}
+
+h3 {
+    color: #999;
+    font-size: 1.25em;
+}
+
+img {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #ccc;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+strong {
+    font-style: none;
+    text-transform: uppercase;
+}
+
+.navigation {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+
+}
+
+
+.toplist {
+	display: inline;
+	float: left;
+	display: block;
+    width: 60px;
+    
+}
+
+table {
+    background-color: #ccc;
+}
+
+#top {
+    background-color: #ccc;
+    padding: 20px
+}
+
+.intro {
+    color: red;
+    font-weight: bold;
+}
+
+a:active {
+    color: red;
+}
+
+a:hover {
+    text-decoration: none;
+    color: blue;
+    background-color: yellow;
+}
+
+input:focus, textarea:focus {
+    background: #eee;
+}
+
+.searchstyle {
+	padding-top: 16px;
+	padding-right: 30px;
+	width: 550px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+		background: url("data:image/gif;base64,R0lGODlhHAAmAKIHAKqqqsvLy0hISObm5vf394uLiwAAAP///yH5BAEAAAcALAAAAAAcACYAAAO9eLpMIMYIQJi9DcYtKv6KtnHgB4yoAZSXKAyDy1rjoAzjzOQLrx8+4OanCAZnxiExGSEKmz3lj2lwUq3SZ3WZPbKuXGgxu9t4tLYDTkpIRQILF0x2G4lWipM7gj/oJQUkcXsCDCIFATULBCIcZ2tvB3QLDxETFnR/BgU/gRt9jX0gnpYMkJZpFzEoqQqJKAIBaQOVKHAXr3t7txgBjboSvB8EpLoFZywOAo3LFE5lYs/QW9LT1TRk1V7S2xYJADs=") no-repeat;
+		background-size:17px;
+		background-position: 550px;
+
+
+}
+
+.search {
+	padding-top: 30px;
+
+}
+
+.searchbutton {
+	padding-top: 15px;
+	display:block;
+	width:21%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.button {
+	padding-top: 5px;
+	padding-bottom:5px;
+	margin-right: 10px;
+	background-color: #F0F0F5;
+	border-color: #E0E0EB;
+	font-size: 15px;
+}
+
+.navigation2 {
+
+	list-style-type: none;
+	margin: 0;
+	padding-bottom: 15px;
+	position:absolute; bottom:0;
+	width: 100%;
+	background-color: #F0F0F5;
+
+}
+
+.bottomlist {
+	font-size: 17px;
+	display:inline;
+	padding-right: 30px;
+
+}
+
+.bottomleft {
+	float: left;
+}
+
+.bottomright {
+	float: right;
+}
